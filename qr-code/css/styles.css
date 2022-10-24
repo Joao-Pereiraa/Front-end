@@ -1,0 +1,58 @@
+*{                 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    background-color:  rgb(227, 239, 242);;
+   }
+
+.container{
+    background-color:  rgb(227, 239, 242);;
+
+}
+
+   /*Grid de Produtos */
+
+.box{
+    width: 220px;
+    height: 350px;
+    margin: auto;
+    margin-top: 90px;
+    padding: 9px;
+    border-radius: 15px;
+    background-color: white;
+
+    }
+
+.text h2,h3{
+        background-color: white;
+    }
+
+.img{
+        background-color: white;
+    }
+
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+    
+}   
+
+.text h2{
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.text h3{
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(109, 109, 108);
+    text-align: center;
+}
+
+  
+
