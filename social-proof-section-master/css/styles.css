@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.page{
+    width: 400, 500, 700;
+    margin-top: 60px;
+    display: flex;
+}
+
+.colum1{
+    width: 50%;
+    padding-left: 60px;
+}
+
+.colum1 h1{
+
+color:hsl(300, 43%, 22%);
+width: 200px;
+line-height: 20px;
+
+}
+
+.colum1 p{
+
+    color:hsl(303, 10%, 53%);
+    width: 350px;
+    margin-top: 20px;
+    font-size: small;
+    line-height: 20px;
+}
+
+.colum2{
+
+    margin-top: 25px;
+}
+
+.linha{
+    display: flex;
+    margin-top: 15px;
+    background-color: hsl(300, 24%, 96%);    
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 8px;
+    color: hsl(300, 43%, 22%);
+    font-size: small;
+}
+
+.frase{
+     padding-left: 15px;
+}
+
+#linha2{
+margin-left: 30px;
+}
+
+#linha3{
+    margin-left: 60px;
+}
+
+.cards{
+    width: 400, 500, 700;
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.card{
+    background-color:  hsl(300, 43%, 22%);
+    width: 280px; 
+    height: 180px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 15px;
+    
+}
+
+img{
+    border-radius: 100px;
+}
+
+.sub-card{
+    display: flex;
+}
+
+.inf{
+    padding-left: 15px;
+}
+
+.inf h1,h2{
+font-size: 15px;
+}
+
+.inf h1{
+    color: hsl(0, 0%, 100%);
+    }
+
+
+.inf h2{
+        color: hsl(333, 80%, 67%);
+        opacity: 50%;
+        }
+
+
+.txt{
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+    line-height: 20px;
+    opacity: 90%;
+    width: 240px;
+}
+
+#card1{
+    margin-left: 60px;
+}
+
+#card2{
+    margin-top: 20px;
+    margin-left: 15px;
+
+
+}
+
+#card3{
+    margin-top: 40px;
+    margin-left: 15px;
+
+}
+
+
