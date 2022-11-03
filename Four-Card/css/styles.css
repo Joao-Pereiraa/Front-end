@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';  
+    background-color: rgb(246, 244, 244); 
+}
+
+/* Cabeçalho*/
+
+.topo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.topo h2{
+    font-weight: 200;   
+    height: 35px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+.topo h1{
+    font-weight: 500;   
+    font-size: 24.1px;
+    height: 35px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+.topo p{
+    margin-top: 25px;
+    margin-left: 35%;
+    font-size: 15px;
+    width: 510px;
+    color:hsl(229, 6%, 66%);
+    background-color: rgb(246, 244, 244); 
+}
+
+/* page*/ 
+
+.page{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+/* card*/ 
+
+.grid{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.grid h1,p,svg{
+background-color: white;
+}
+
+.grid h1{
+   font-size: medium;
+   margin-top: 15px;
+}
+
+.grid p{
+    font-size: small;
+    opacity: 90%;
+    margin-top: 10px;
+ }
+
+svg{
+    margin-left: 70%;
+    margin-top: 30px;
+}
+
+#grid1{
+    border-top: solid 3px hsl(180, 62%, 55%);
+    margin-top: 50%;
+}
+
+#grid2{
+    border-top: solid 3px hsl(0, 78%, 62%);
+    margin-left: 20px;
+}
+
+#grid3{
+    border-top: solid 3px hsl(34, 97%, 64%);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#grid4{
+    border-top: solid 3px hsl(212, 86%, 64%);
+    margin-top: 50%;
+    margin-left: 20px;
+
+}
+
+/* espaço final*/ 
+
+footer h1{
+    height: 80px;
+}
+
+
+
